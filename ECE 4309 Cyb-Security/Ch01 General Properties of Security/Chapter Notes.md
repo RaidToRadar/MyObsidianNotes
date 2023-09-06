@@ -1,3 +1,31 @@
+- [[#Dependability & Security|Dependability & Security]]
+	- [[#Dependability & Security#Fault-Error-Failure Chain|Fault-Error-Failure Chain]]
+		- [[#Fault-Error-Failure Chain#Fault:|Fault:]]
+		- [[#Fault-Error-Failure Chain#Error:|Error:]]
+		- [[#Fault-Error-Failure Chain#Failure:|Failure:]]
+- [[#Dependability|Dependability]]
+- [[#Attributes|Attributes]]
+- [[#Measuring Availability|Measuring Availability]]
+- [[#Measuring Reliability|Measuring Reliability]]
+- [[#Means for Protection from Faults|Means for Protection from Faults]]
+- [[#Resilience vs. Dependability|Resilience vs. Dependability]]
+- [[#Essential Network and Computer Security|Essential Network and Computer Security]]
+	- [[#Essential Network and Computer Security#1. Confidentiality|1. Confidentiality]]
+	- [[#Essential Network and Computer Security#2. Integrity|2. Integrity]]
+	- [[#Essential Network and Computer Security#3. Availability|3. Availability]]
+- [[#Confidentiality vs Privacy|Confidentiality vs Privacy]]
+- [[#Levels of Impact|Levels of Impact]]
+	- [[#Levels of Impact#Low|Low]]
+	- [[#Levels of Impact#Moderate|Moderate]]
+	- [[#Levels of Impact#High|High]]
+- [[#Vulnerabilities, Threats and Attacks|Vulnerabilities, Threats and Attacks]]
+	- [[#Vulnerabilities, Threats and Attacks#Vulnerabilities:|Vulnerabilities:]]
+	- [[#Vulnerabilities, Threats and Attacks#Threats:|Threats:]]
+	- [[#Vulnerabilities, Threats and Attacks#Attacks:|Attacks:]]
+	- [[#Vulnerabilities, Threats and Attacks#Countermeasures:|Countermeasures:]]
+
+
+
 Perception of (in)security
 - Note that everything may be broken and hacked into
 
@@ -94,3 +122,34 @@ Dependability means are intended to reduce the # of failures made visible to end
 ### High
 - Loss is expected
 - Severe or catastrophic adverse effect on operations
+
+
+## Vulnerabilities, Threats and Attacks
+
+### Vulnerabilities:
+- Corrupted - relate to integrity
+- Leaky - relate to confidentiality, info leak
+- Unavailable / slow - relate to availability
+
+### Threats:
+- Capable of Exploits 
+- Represent potential security harm to assets
+
+### Attacks:
+- Passive
+- Active 
+- Insider - initiated by a spy / an inside job
+- Outsider
+### Countermeasures:
+How to deal with security attacks
+1. Prevent
+2. Detect
+3. Recover
+
+_Beware_
+- May cause new issues or vulnerabilities
+### Table on Threats
+![[Pasted image 20230906133409.png|500]]
+![[Pasted image 20230906134603.png|500]]
+### Example of Threats
+![[Pasted image 20230906134706.png]]
